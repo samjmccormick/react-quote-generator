@@ -21,7 +21,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  transition: background-color 2s ease;
 }
 
 .card {
@@ -31,7 +31,9 @@
   background-color: beige;
   color: black;
   padding: 10px;
-  max-width: 80%;
+  width: 60%;
+  border-radius: 5px;
+ 
 }
 
 .card > * {
@@ -41,9 +43,14 @@
 blockquote {
   font-weight: bold;
   font-size: 20px;
+ text-align: center;
+ width: 90%;
+ margin: auto;
 }
 
 button {
   color: white;
+  transition: background-color 2s ease;
+  border-radius: 5px;
 }
 
