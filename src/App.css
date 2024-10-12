@@ -1,0 +1,49 @@
+:root {
+  --primary-color: rgb(187, 162, 255);
+}
+
+/* Base reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* box-sizing and font sizing */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.body {
+  height: 100vh;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: beige;
+  color: black;
+  padding: 10px;
+  max-width: 80%;
+}
+
+.card > * {
+  padding: 10px;
+}
+
+blockquote {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+button {
+  color: white;
+}
+
